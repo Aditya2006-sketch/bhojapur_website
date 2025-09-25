@@ -1,0 +1,88 @@
+/* Global Theme - Village Website */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+}
+
+/* Glassmorphism Box */
+.box {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  margin: 40px auto;
+  max-width: 900px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #ffcc00;
+}
+h2 {
+  font-size: 1.5rem;
+  color: #f0f0f0;
+}
+
+/* Paragraph */
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: #ffd633;
+  transform: scale(1.05);
+}
+
+/* Scheme Cards */
+.scheme {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+}
+.scheme h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+.scheme p {
+  color: #f5f5f5;
+}
+
+/* Search Bar */
+.search-container {
+  margin: 20px 0;
+}
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}

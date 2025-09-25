@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Government Schemes - Village Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url("bhojapur.jpeg") no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+    }
+    h1 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: rgba(0,0,0,0.7);
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .scheme {
+      background: rgba(255,255,255,0.1);
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .scheme h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      color: #ffcc00;
+    }
+    .scheme p {
+      margin: 6px 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .back-btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 10px 18px;
+      background: #00c3ff;
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    .back-btn:hover {
+      background: #0099cc;
+    }
+    #searchBar {
+      width: 80%;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      margin: 20px auto;
+      display: block;
+      font-size: 16px;
+    }
+    .know-btn {
+      display: inline-block;
+      padding: 8px 15px;
+      background: #ffcc00;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    .know-btn:hover {
+      background: #ffc107;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="problems.html" class="back-btn">⬅ Back</a>
+    <h1>Government Schemes</h1>
+    <p>Find and learn about various government schemes for villagers</p>
+  </header>
+
+  <!-- Search Bar -->
+  <input type="text" id="searchBar" placeholder="🔍 Search schemes..." onkeyup="searchSchemes()">
+
+  <div class="container" id="schemesList">
+
+    <div class="scheme">
+      <h2>🏠 Pradhan Mantri Awas Yojana (PMAY)</h2>
+      <p><b>Objective:</b> To provide affordable housing to rural and urban poor.</p>
+      <p><b>Benefits:</b> Subsidy on home loans, financial assistance up to ₹2.67 lakh, focus on slum rehabilitation.</p>
+      <p><b>Target Group:</b> Economically weaker sections, low-income groups, and middle-income groups.</p>
+      <a href="https://pmaymis.gov.in/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>🌾 National Rural Livelihood Mission (NRLM)</h2>
+      <p><b>Objective:</b> To reduce poverty through promotion of diversified and gainful self-employment.</p>
+      <p><b>Benefits:</b> Provides skill training, access to credit, and livelihood support for rural households.</p>
+      <p><b>Target Group:</b> Rural poor women organized into Self Help Groups (SHGs).</p>
+      <a href="https://aajeevika.gov.in/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>🏥 Ayushman Bharat - PM-JAY</h2>
+      <p><b>Objective:</b> To provide free healthcare to poor families.</p>
+      <p><b>Benefits:</b> ₹5 lakh health insurance per family per year, covers major surgeries, hospitalization and medicines.</p>
+      <p><b>Target Group:</b> More than 10 crore vulnerable families across India.</p>
+      <a href="https://pmjay.gov.in/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>👧 Beti Bachao Beti Padhao</h2>
+      <p><b>Objective:</b> To address declining child sex ratio and promote girl education.</p>
+      <p><b>Benefits:</b> Awareness campaigns, financial incentives, improved access to education and welfare services for girls.</p>
+      <p><b>Target Group:</b> Girls across India, especially in districts with low sex ratio.</p>
+      <a href="https://wcd.nic.in/bbbp-schemes" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>🛠 Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)</h2>
+      <p><b>Objective:</b> To provide wage employment and enhance livelihood security in rural areas.</p>
+      <p><b>Benefits:</b> 100 days guaranteed wage employment in unskilled manual work, focus on rural asset creation.</p>
+      <p><b>Target Group:</b> Rural households willing to do unskilled labor.</p>
+      <a href="https://nrega.nic.in/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>🚮 Swachh Bharat Abhiyan</h2>
+      <p><b>Objective:</b> To eliminate open defecation and improve solid waste management.</p>
+      <p><b>Benefits:</b> Financial assistance for toilet construction, cleanliness drives, awareness campaigns.</p>
+      <p><b>Target Group:</b> Entire population of India, especially rural households.</p>
+      <a href="https://swachhbharatmission.gov.in/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>📚 Sarva Shiksha Abhiyan</h2>
+      <p><b>Objective:</b> Universalization of elementary education.</p>
+      <p><b>Benefits:</b> Free and compulsory education to children aged 6 to 14 years, infrastructure improvement, teacher training.</p>
+      <p><b>Target Group:</b> Children aged 6–14 years in India.</p>
+      <a href="https://samagra.education.gov.in/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>💼 Skill India Mission</h2>
+      <p><b>Objective:</b> To empower youth with skill training and vocational education.</p>
+      <p><b>Benefits:</b> Free/affordable skill training, certification, job placements.</p>
+      <p><b>Target Group:</b> Youth between 15–35 years seeking employment.</p>
+      <a href="https://skillindia.gov.in/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>🇮🇳 Atmanirbhar Bharat Abhiyan</h2>
+      <p><b>Objective:</b> To make India self-reliant in key sectors of the economy.</p>
+      <p><b>Benefits:</b> Financial support to MSMEs, reforms in agriculture, local manufacturing promotion.</p>
+      <p><b>Target Group:</b> Indian businesses, entrepreneurs, farmers, and startups.</p>
+      <a href="https://www.pmindia.gov.in/en/news_updates/aatmanirbhar-bharat-abhiyan/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+    <div class="scheme">
+      <h2>💧 Jal Jeevan Mission</h2>
+      <p><b>Objective:</b> To ensure piped water supply to every rural household.</p>
+      <p><b>Benefits:</b> Functional tap connections, safe drinking water, water quality monitoring.</p>
+      <p><b>Target Group:</b> All rural households in India.</p>
+      <a href="https://jaljeevanmission.gov.in/" target="_blank" class="know-btn">Know More</a>
+    </div>
+
+  </div>
+
+  <script>
+    function searchSchemes() {
+      let input = document.getElementById("searchBar").value.toLowerCase();
+      let schemes = document.getElementsByClassName("scheme");
+
+      for (let i = 0; i < schemes.length; i++) {
+        let schemeText = schemes[i].innerText.toLowerCase();
+        if (schemeText.includes(input)) {
+          schemes[i].style.display = "block";
+        } else {
+          schemes[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+
+</body>
+</html>
